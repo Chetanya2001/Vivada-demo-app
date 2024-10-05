@@ -1,11 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { StyleSheet, Text, View,Dimensions } from 'react-native';
+import Map from './components/map';
 export default function App() {
+  const dimensions = Dimensions.get("window")
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Map dimensions = {dimensions}></Map>
     </View>
   );
 }
