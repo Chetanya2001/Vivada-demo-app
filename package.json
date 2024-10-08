@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.2.3",
+    "d3": "^7.9.0",
     "d3.js": "^0.0.2-security",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@types/d3": "^7.4.3",
     "@types/react": "~18.2.45",
     "@types/topojson-client": "^3.1.5",
     "typescript": "^5.1.3"
